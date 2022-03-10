@@ -9,9 +9,10 @@ function criarCalculadora (){
         },
 
         pressionaEnter(){
-            this.display.addEventListener('keyup', e=>{
-                if(e.keyCode === 13){
+            this.display.addEventListener('keyup', e =>{
+                if(e.which == 13){
                     this.realizaConta();
+                   
                 }
             })
         },
@@ -72,4 +73,4 @@ function criarCalculadora (){
 }
 
 const calculadora = criarCalculadora();
-calculadora.inicia()
+calculadora.inicia();
