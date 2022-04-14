@@ -8,4 +8,4 @@ console.log(novo);
 
 const sobrenomes = 'Soledade Pereira Souza Reis';
 const sobreNameArray = sobrenomes.split(' ')
-console.log(sobreNameArray);
+// console.log(sobreNameArray);
