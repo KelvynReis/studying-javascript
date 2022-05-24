@@ -1,11 +1,11 @@
 import React from 'react';
+
 import { Container } from '../../styles/GlobalStyles';
 
-export default function Login() {
+export default function Page404() {
   return (
     <Container>
-      <h1>Ola login</h1>
-      <button type="submit">Enviar</button>
+      <h1>Essa pagina não existe</h1>
     </Container>
   );
 }
