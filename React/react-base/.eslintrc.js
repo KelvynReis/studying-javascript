@@ -32,6 +32,5 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     'no-console': 'off',
     'func-names': 'off',
-    'no-unused-vars': 'off',
   },
 };
