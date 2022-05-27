@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { Nav } from './styled';
 
 export default function Header() {
-  const botaoClicado = useSelector((state) => state.botaoClicado);
+  const botaoClicado = useSelector((state) => state.example.botaoClicado);
 
   return (
     <Nav>

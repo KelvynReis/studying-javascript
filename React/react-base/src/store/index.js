@@ -1,25 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 
-const initialState = {
-  botaoClicado: false,
-};
-// eslint-disable-next-line default-param-last
-const reducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'BOTAO_CLICADO': {
-      const newState = { ...state };
-      newState.botaoClicado = !newState.botaoClicado;
-      return newState;
-    }
+import rootReducer from './modules/rootReducer';
 
-    default: {
-      return state;
-    }
-  }
-};
-
-const store = configureStore({
-  reducer,
-});
+const store = configureStore({ reducer: rootReducer });
 
 export default store;
