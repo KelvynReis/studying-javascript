@@ -1,2 +1,2 @@
-# studying-TypeScript
-Repositorio criado para estudos de TypeScript e JavaScript.👨‍💻
+# studying-JavaScript
+Repositorio criado para estudos de JavaScript👨‍💻
